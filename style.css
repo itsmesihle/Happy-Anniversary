@@ -132,8 +132,30 @@ div.slideshow-container {
   animation-duration: 1.5s;
 }
 
-.footer {
+footer {
   bottom: 0;
+  background: grey;
+  text-align: center;
+}
+
+/* attribute decorations */
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #e5e7eb;
+}
+
+a:visited {
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3882f6;
+  cursor: pointer;
 }
 
 @keyframes fade {
